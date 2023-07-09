@@ -6,22 +6,24 @@
     <!-- Tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Qtere</title>
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
-<body>
-    <header class="bg-slate-300">
-        <nav class="bg-orange-300 py-5">
+<body class="bg-[#e9e9e9]">
+    <header>
+        <nav class="bg-white py-5">
             <div class="container mx-auto flex justify-between items-center">
                 <div class="">
                     <a href="#"><img src="./assets/photos/Group 3702.png" alt="Brand Image"></a>
                 </div>
                 <div >
                     <ul class="flex justify-center items-center gap-16" >
-                        <li><a class="text-[20px] text-white font-semibold hover:text-blue-700" href="##">Home</a></li>
-                        <li><a class="text-[20px] text-white font-semibold hover:text-blue-700" href="#">About</a></li>
-                        <li><a class="text-[20px] text-white font-semibold hover:text-blue-700" href="#">Service</a></li>
-                        <li><a class="text-[20px] text-white font-semibold hover:text-blue-700" href="#">Blog</a></li>
-                        <li><a class="text-[20px] text-white font-semibold hover:text-blue-700" href="#">Contact Us</a></li>
-                        <button class="text-[20px] bg-green-500 px-5 py-1 border rounded-xl text-white font-semibold hover:text-blue-700" type="button">Help Center</button>
+                        <li><a class="text-[20px]  font-semibold hover:text-green-700" href="##">Home</a></li>
+                        <li><a class="text-[20px]  font-semibold hover:text-green-700" href="#">About</a></li>
+                        <li><a class="text-[20px]  font-semibold hover:text-green-700" href="#">Service</a></li>
+                        <li><a class="text-[20px]  font-semibold hover:text-green-700" href="#">Blog</a></li>
+                        <li><a class="text-[20px]  font-semibold hover:text-green-700" href="#">Contact Us</a></li>
+                        <button class="text-[20px] bg-green-500 px-5 py-1 border rounded-xl text-white font-semibold hover:text-black" type="button">Help Center</button>
                     </ul>
                     
                 </div>
@@ -37,8 +39,8 @@
                     sustain its beauty. So what are you waiting for ? <br> 
                     Lets ride together</p>
                 <div class="mt-[62px]">
-                    <button class="bg-black text-white font-semibold px-3 py-1 rounded-md m-5" type="button">DOWNLOAD</button>
-                    <button class="bg-black text-white font-semibold px-3 py-1 rounded-md" type="button">DOWNLOAD</button>
+                    <button class="bg-black text-white font-semibold px-3 py-1 rounded-md m-5" type="button"><i class="bi bi-google-play"></i> DOWNLOAD</button>
+                    <button class="bg-black text-white font-semibold px-3 py-1 rounded-md" type="button"><i class="bi bi-file-pdf-fill"></i> DOWNLOAD</button>
                 </div>
             </div>
             <div class="">
@@ -47,18 +49,156 @@
         </div>
     </header>
     <main>
-        <section class="bg-slate-400 mt-[85px]">
-            <div class="container mx-auto flex items-center py-[50px]">
+        <section class="mt-[85px]">
+            <div class="container mx-auto flex items-center w-[1260px] text-center  bg-green-500 rounded-md py-[50px] mb-10">
                 <div class="">
-                    <p class="ml-[72px] mr-[122px]">Let’s go. Get a link <br>
+                    <p class="ml-[180px] mr-[122px] font-semibold text-white">Let’s go. Get a link <br>
                         to download the app.</p>
                 </div>
                 <div class="">
-                    <input class="w-[300px] h-[30px]" type="number" placeholder="Enter Your Number">
-                    <button type="button">APPLY TO DRIVE</button>
+                    <input class="w-[300px] h-[40px] rounded-md" type="number" placeholder="Enter Your Number">
+                    <button class="bg-black text-white px-[20px] py-[8px] rounded-md" type="button">APPLY TO DRIVE</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="works">
+            <div class="container mx-auto">
+                <div class="work-text text-center mb-[65px]">
+                    <h2 class="text-[46px] font-bold mb-[20px]">HOW TERE WORKS</h2>
+                    <p>Download and install the tere app. Enter your phone <br>
+                    number and make your user account. when approved you <br>
+                    may start driving.</p>
+                </div>
+                <div class="grid grid-cols-3 gap-5 pt-[60px]">
+                    <div class="">
+                        <div class="text-right">
+                            <img src="./assets/photos/1.png" class="ml-[360px] h-[60px] w-[60px]" alt="">
+                            <h2 class="text-[22px] font-bold">REQUEST A RIDE</h2>
+                            <p>Have to reach office or going <br>
+                                for shopping ? <br>
+                                Just put your current location <br>
+                                and destination and search a <br>
+                                ride that suits you</p>
+                        </div>
+                        <div class="text-right mt-[85px]">
+                            <img src="./assets/photos/3.png" class="ml-[360px] h-[60px] w-[60px]" alt="">
+                            <h2 class="text-[22px] font-bold">INSTANT NOTIFICATIONS</h2>
+                            <p>Get instant notifications for <br>
+                                your rides and be in contact <br>
+                                with fellow riders all the time</p>
+                        </div>
+                    </div>
+                    <div class="mx-auto relative:">
+                        <div class="h-[400px] w-[400px] bg-green-500 rounded-full"></div>
+                        <img src="./assets/photos/Group 3693.png" class="img-fluid absolute left-[530px]
+                        top-[1110px]" alt="">
+                    </div>
+                    <div class="">
+                        <div class="">
+                            <img src="./assets/photos/2.png" class="ml-[-17px] h-[60px] w-[60px]" alt="">
+                            <h2 class="text-[22px] font-bold">POST A RIDE</h2>
+                            <p>Going somewhere but hate to <br>
+                            travel alone - <br>
+                            just post your ride details and <br>
+                            publish it</p>
+                        </div>
+                        <div class="mt-[110px]">
+                            <img src="./assets/photos/4.png" class="ml-[-10px] h-[60px] w-[60px]" alt="">
+                            <h2 class="text-[22px] font-bold">CASHLESS PAYMENT</h2>
+                            <p>Payment made easy by using <br>
+                            your own Wallet - no more <br>
+                            cash to carry</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex pt-20 ml-[580px]">
+                    <div class="h-[10px] w-[10px] bg-green-600 m-2 rounded-full cursor-pointer"></div>
+                    <div class="h-[10px] w-[10px] bg-green-400 m-2 rounded-full cursor-pointer"></div>
+                    <div class="h-[10px] w-[10px] bg-green-400 m-2 rounded-full cursor-pointer"></div>
+                    <div class="h-[10px] w-[10px] bg-green-400 m-2 rounded-full cursor-pointer"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container mx-auto mb-36">
+                <h2 class="text-center text-[45px] font-bold p-10">TERE BENEFITS</h2>
+                <div class="flex justify-between items-center relative ml-[100px] h-[250px] w-[925px] gap-32 rounded-lg bg-white p-10">
+                    <div class="">
+                        <h1 class="text-[45px] font-semibold text-green-500">01.</h1>
+                        <h2 class="absolute left-[105px] bottom-[126px] font-semibold">Flexible <br>
+                            working hours</h2>
+                        
+                        <p>You can decide when, and how much <br>
+                        time you want to drive.</p>
+                    </div>
+                    <div class="">
+                        <img src="./assets/photos/Group.png" class="h-[200px] mr-10" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between items-center relative ml-[205px] mt-[56px] mb-[56px] h-[250px] w-[925px] gap-32 rounded-lg bg-white   p-10">
+                    <div class="">
+                        <img src="./assets/photos/Frame.png" class="h-[200px] mr-10" alt="">
+                    </div>
+                    <div class="">
+                        <h1 class="text-[45px] font-semibold text-green-500">02.</h1>
+                        <h2 class="absolute left-[690px] bottom-[126px] font-semibold">Earnings</h2>
+                        
+                        <p>You can decide when, and how much <br>
+                        time you want to drive.</p>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center relative ml-[100px] h-[250px] w-[925px] gap-32 rounded-lg bg-white p-10">
+                    <div class="">
+                        <h1 class="text-[45px] font-semibold text-green-500">03.</h1>
+                        <h2 class="absolute left-[105px] bottom-[126px] font-semibold">Customer <br>
+                            support 24/7</h2>
+                        
+                        <p>You can decide when, and how much <br>
+                        time you want to drive.</p>
+                    </div>
+                    <div class="">
+                        <img src="./assets/photos/Frame (1).png" class="h-[200px] mr-10" alt="">
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="container mx-auto">
+            <div class="grid grid-cols-4 pb-10">
+                <div class="mx-auto">
+                    <a href="#"><img src="./assets/photos/Group 3701.png" alt=""></a>
+                </div>
+                <div class="">
+                    <h2 class="font-bold">Address :-</h2>
+                    <p>3, Season Park, Jakarta <br>
+                        support@foodyar.co,id
+                        021 - 1111 - 2222
+                    </p>
+                </div>
+                <div class="text-center">
+                    <ul>
+                        <li><a class="font-bold" href="#">Home</a></li>
+                        <li><a class="font-bold" href="#">About</a></li>
+                        <li><a class="font-bold" href="#">Services</a></li>
+                        <li><a class="font-bold" href="#">Blog</a></li>
+                        <li><a class="font-bold" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="mt-[30px]">
+                    <button class="bg-black text-white px-4 py-1 rounded-lg" type="button"><i class="bi bi-google-play"></i> DOWNLOAD</button>
+                    <button class="bg-black text-white px-4 py-1 rounded-lg" type="button"><i class="bi bi-file-pdf-fill"></i> DOWNLOAD</button>
+                </div>
+            </div>
+
+           
+
+            <div class="footer-widget p-20 text-center bg-slate-400 text-2xl text-green-800">
+                <p>All Rights Reserved By ROBIN &copy; 2023</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
